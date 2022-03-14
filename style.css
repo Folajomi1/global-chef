@@ -1,0 +1,282 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 375px;
+  box-sizing: border-box;
+}
+h2 {
+  color: white;
+  text-align: center;
+  background-color: #54839c;
+  padding: 10px;
+  font-size: large;
+}
+
+h1,
+h6 {
+  text-align: center;
+  font-size: large;
+  color: #3d4246;
+  font-style: bold;
+  letter-spacing: 2px;
+}
+/* todays stylying */
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+}
+.grid-container div {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin: 10px;
+  height: 10rem;
+}
+.item1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url('/globalchef.img/1\ modern\ jacket.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.item2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url('/globalchef.img/2\ back\ to\ black.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.item3 {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url('/globalchef.img/3\ chef\ pants.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.item4 {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url('/globalchef.img/4\ cool\ jackets.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.item4 {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url('/globalchef.img/4\ .jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.student {
+  margin: 15px;
+  padding: 15px;
+}
+.student .butn {
+  padding: 10px;
+  background-color: #557b96;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  font-weight: bold;
+}
+.student p {
+  line-height: 20px;
+  font-weight: 200;
+  color: #b4b9bd;
+}
+.student p1 {
+  font-size: large;
+  font-weight: bold;
+  margin-top: 5px;
+}
+.container-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  margin: 30px;
+}
+.feature-images .price {
+  color: #b4b9bd;
+  margin-top: -10px;
+}
+.feature-button {
+  padding: 10px;
+  margin-left: 200px;
+  background-color: #557b96;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  font-weight: bold;
+}
+.all {
+  background-color: #fcfcfd;
+}
+.list {
+  margin: 10px;
+}
+.footer-distributed {
+  background: linear-gradient(to right, #ffa17f, #00223e);
+  box-sizing: border-box;
+  width: 100%;
+  font: bold 16px sans-serif;
+  text-align: left;
+  padding: 50px 60px 40px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+* Footer left */ .footer-distributed .footer-left {
+  float: left;
+}
+
+/* The company logo */
+.footer-distributed h3 {
+  font: normal 36px 'Roboto', cursive;
+  margin: 0 0 10px;
+}
+.img {
+  border: 3px;
+  border-radius: 5px;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links {
+  color: whitesmoke;
+  margin: 0 0 10px;
+  padding: 0;
+}
+#hh:hover {
+  color: black;
+}
+#bb:hover {
+  color: black;
+}
+#pp:hover {
+  color: black;
+}
+#aa:hover {
+  color: black;
+}
+#ff:hover {
+  color: black;
+}
+#cc:hover {
+  color: black;
+}
+.footer-distributed .footer-links a {
+  display: inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer-distributed .footer-company-name {
+  color: #8f9296;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+
+/* Footer social icons */
+.footer-distributed .footer-icons {
+  margin-top: 40px;
+}
+#face {
+  background-color: #4267b2;
+  color: white;
+}
+#lin {
+  background-color: #0e76a8;
+  color: white;
+}
+#twit {
+  color: white;
+  background-color: #1da1f2;
+}
+#ins {
+  color: white;
+  background: linear-gradient(
+    #6559ca,
+    #bc318f 30%,
+    #e33f5f 50%,
+    #f77638 70%,
+    #fec66d 100%
+  );
+}
+#what {
+  color: white;
+  background-color: #25d366;
+}
+.footer-distributed .footer-icons a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  border-radius: 2px;
+  font-size: 20px;
+  text-align: center;
+  line-height: 35px;
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+
+/* Footer Right */
+.footer-distributed {
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.footer-distributed .footer-right {
+  float: right;
+}
+
+.footer-distributed .footer-right p {
+  display: inline-block;
+  vertical-align: top;
+  margin: 15px 42px 0 0;
+  color: #ffffff;
+}
+
+/* The contact form */
+
+.footer-distributed form {
+  display: inline-block;
+}
+
+.footer-distributed form input,
+.footer-distributed form textarea {
+  display: block;
+  border-radius: 3px;
+  box-sizing: border-box;
+  background-color: #cad0db;
+  box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+  border: none;
+  resize: none;
+  font: inherit;
+  font-size: 14px;
+  font-weight: normal;
+  color: #d1d2d2;
+  width: 400px;
+  padding: 18px;
+}
+.footer-distributed form input {
+  height: 55px;
+  margin-bottom: 15px;
+}
+
+.footer-distributed form textarea {
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.footer-distributed form button {
+  border-radius: 3px;
+  background-color: #33383b;
+  color: #ffffff;
+  border: 0;
+  padding: 15px 50px;
+  font-weight: bold;
+  float: right;
+}
